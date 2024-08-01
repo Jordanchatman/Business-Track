@@ -1,0 +1,222 @@
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000e8;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: auto; /* Shift the ul to the right */
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+main {
+    padding: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+form label {
+    margin-top: 1em;
+}
+
+form input {
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.7em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #575757;
+}
+.title3{
+    font-style: Bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: grey 2px 2px;
+    font-size: 50px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px; 
+    text-align: center;
+} 
+.Logosize{
+    width: 190px;
+}
+.search-bar {
+   margin-left: auto;
+}
+
+.search-bar input {
+    padding: 0.5em;
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+    width: 450px;
+    height: 35px;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+
+    height: auto;
+}
+.image-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Align items with space between */
+    text-align: center;
+}
+
+.image-container img {
+    border: 2px solid #000000; /* Border style and color */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    max-width: 30%; /* Adjust width of images as needed */
+    height: auto; /* Maintain aspect ratio */
+    text-align: center;
+}
+.overlay-text {
+    position: absolute;
+    top: 45%;
+    left: 16%; 
+    transform: translate(-50%, -50%);
+    background-color: transparent; 
+    padding: 10px 20px; 
+    color: white;
+    font-family: monospace;
+    font-size: 30px; 
+    text-align: top left;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: #333;
+}
+.btn1{
+    position: absolute;
+    top: 200px;
+    left: 140px;
+    transform: translate(-50% -50%);
+    -ms-transform: translate(-50% -50%);
+    background-color: transparent;
+    color:white;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn1:hover{
+    background-color: #777777;
+}
+.btn2{
+    position: absolute;
+    top: 200px;
+    right: 700px;
+    transform: translate(-50% -50%);
+    -ms-transform: translate(-50% -50%);
+    background-color: transparent;
+    color:white;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn2:hover{
+    background-color: #777777;
+}
+.btn3{
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    transform: translate(-50% -50%);
+    -ms-transform: translate(-50% -50%);
+    background-color: transparent;
+    color:white;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn3:hover{
+    background-color: #777777;
+}
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    top: 100px;
+    width: 1500px;
+  }
+  .footer-content p {
+    margin: 0em ;
+  }
+  .footer-content a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+  h5 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Inria Sans', sans-serif;
+  }
+  
